@@ -9,9 +9,15 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@pages/*": ["src/pages/*"],
-      "@fixtures/*": ["src/fixtures/*"],
-      "@utils/*": ["src/utils/*"]
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@fixtures/*": [
+        "src/fixtures/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ]
     }
   },
   "include": [
@@ -19,3 +25,4 @@
     "playwright.config.ts"
   ]
 }
+//test
